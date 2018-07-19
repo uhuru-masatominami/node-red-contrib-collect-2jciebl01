@@ -8,6 +8,11 @@
   },
   "author": "",
   "license": "ISC",
+  "node-red" : {
+    "nodes" : {
+      "2jciebl01" : "collect-2jciebl01.js"
+     }
+  },
   "dependencies": {
     "noble": "^1.9.1"
   },
