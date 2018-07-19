@@ -1,5 +1,5 @@
 module.exports = function(RED) {
-    function 2jciebl01-node(config) {
+    function Node2jciebl01(config) {
         RED.nodes.createNode(this,config);
         var node = this;
         node.on('input', function(msg) {
@@ -59,6 +59,6 @@ module.exports = function(RED) {
           });
         });
     }
-    RED.nodes.registerType("2jciebl01",2jciebl01-node);
+    RED.nodes.registerType("2jciebl01",Node2jciebl01);
 }
 
