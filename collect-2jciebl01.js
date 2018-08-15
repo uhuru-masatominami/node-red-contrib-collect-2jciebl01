@@ -8,7 +8,7 @@ module.exports = function(RED) {
 
           noble.on('stateChange', function(state) {
             if (state === 'poweredOn') {
-              noble.startScanning();
+              noble.startScanning([], true);
             } else {
               noble.stopScanning();
             }
